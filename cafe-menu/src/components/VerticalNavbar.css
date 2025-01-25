@@ -1,0 +1,76 @@
+/* General sidebar styles */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  background: linear-gradient(180deg, #ff9a3d, #e76253); /* Orange to red gradient */
+  color: rgb(244, 230, 230);
+  font-size: larger;
+  font-family: 'Didot';
+  
+  padding: 20px;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar header */
+.sidebar-header {
+  background-color: #e1dc77; /* Distinct header background */
+  padding: 20px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  color: #1d1d1c; /* Light yellow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Separator line */
+}
+
+/* Menu list */
+.sidebar-menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Menu items */
+.sidebar-menu li {
+  margin: 15px 0;
+}
+
+/* Menu links */
+.sidebar-link {
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  color: #151515; /* Light yellow */
+  background: rgba(61, 57, 10, 0.1); /* Subtle overlay */
+  padding: 12px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  border-radius: 5px;
+  text-align: center;
+  transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for links */
+.sidebar-link:hover {
+  background: #ffba5a; /* Bright orange */
+  color: #333; /* Dark text for readability */
+  transform: scale(1.05); /* Slight enlargement */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+/* Content area styles */
+.content {
+  margin-left: 260px;
+  padding: 20px;
+  background-color: #f4de4d; /* Light yellow for content background */
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Headings within the content */
+.content h2 {
+  color: #e76253; /* Complementary orange shade */
+  font-weight: bold;
+  margin-bottom: 20px;
+}
